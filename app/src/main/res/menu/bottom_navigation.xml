@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:checked="false"
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/ic_home_24"
+        android:iconTint="@color/white"
+        android:title="@string/navigation_home"
+        android:background="?android:attr/selectableItemBackground" />
+    <item
+        android:checked="false"
+        android:id="@+id/navigation_mood"
+        android:icon="@drawable/ic_favorite_border_24"
+        android:title="@string/navigation_mood"
+        android:background="?android:attr/selectableItemBackground" />
+    <item
+        android:checked="false"
+        android:id="@+id/navigation_music"
+        android:icon="@drawable/ic_library_music_24"
+        android:title="@string/navigation_music"
+        android:background="?android:attr/selectableItemBackground"
+        />
+    <item
+        android:checked="false"
+        android:id="@+id/navigation_seren_place"
+        android:icon="@drawable/ic_store_24"
+        android:title="@string/navigation_serena_place"
+        android:background="?android:attr/selectableItemBackground" />
+    <item
+        android:visibility="gone"
+        android:checked="true"
+        android:id="@+id/navigation_account"
+        android:icon="@drawable/ic_store_24"
+        android:title="account"
+        android:background="?android:attr/selectableItemBackground"
+        />
+</menu>
